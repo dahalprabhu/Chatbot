@@ -1,0 +1,114 @@
+{
+        "intents": [
+          {
+            "tag": "greeting",
+            "patterns": [
+              "Hi",
+              "Hey",
+              "How are you",
+              "Is anyone there?",
+              "Hello",
+              "Good day"
+            ],
+            "responses": [
+              "Hey :-)",
+              "Hello, thanks for visiting",
+              "Hi there, what can I do for you?",
+              "Hi there, how can I help?"
+            ]
+          },
+          {
+            "tag": "goodbye",
+            "patterns": ["Bye", "See you later", "Goodbye"],
+            "responses": [
+              "See you later, thanks for visiting",
+              "Have a nice day",
+              "Bye! Come back again soon."
+            ]
+          },
+          {
+            "tag": "thanks",
+            "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+            "responses": ["Happy to help!", "Any time!", "My pleasure"]
+          },
+          {
+            "tag": "items",
+            "patterns": [
+              "Which items do you have?",
+              "What kinds of items are there?",
+              "What do you sell?"
+            ],
+            "responses": [
+              "we sell almost evertything. Here is the list of items 1. Electronic Devices 2.TV and Home Appliances 3.Health and Beauty 4. Babies and Toys 5. Men's and Women's Fashion 6.Automotive and Motorbike"
+
+            ]
+          },
+          {
+            "tag": "payments",
+            "patterns": [
+              "Do you take credit cards?",
+              "Do you accept Khalti",
+              "Can I pay with esewa?",
+              "Are you cash only?",
+              "Do you accept Mastercard?"
+            ],
+            "responses": [
+              "We accept VISA, Mastercard, esewa, Khalti",
+              "We accept most major credit cards, Khalti , esewa"
+            ]
+          },
+          {
+            "tag": "delivery",
+            "patterns": [
+              "How long does delivery take?",
+              "How long does shipping take?",
+              "When do I get my delivery?"
+            ],
+            "responses": [
+              "Delivery takes 1-4 days depending on location",
+              "Shipping takes 1-4 days",
+              "Delivary can be done within a day for ringroad area and 1-4 days depending on location"
+            ]
+          },
+
+          {
+                "tag": "automotive",
+                "patterns": [
+                  "Where can i visit different available helmets",
+                  "where can i find auto oils and fluids",
+                  "Where to find auto tires and wheels"
+                ],
+                "responses": [
+                  "Go to side navigation bar. You can find Automotive and motorbike. Hover there and you can see those items",
+                  "Side navigation bar then Automotive and motorbike. Hover there and You can see automotive related items"
+                  
+                ]
+           },
+          {
+                  "tag":"name",
+                  "patterns":["what is your name", "What can i call you ", "Do you have name" , "who are you "],
+                  "responses":["My name is chatbot", "You can call me chatbot ", "I am you friend 'chatbot'."  ]
+          },
+
+          {
+                  "tag":"cart",
+                  "patterns":["how to add items in cart", " where can if find my selected items"],
+                  "responses":["You can click the item you want then click on add to cart. cart items can be seen in cart button, right side of search bar","click the item you want and click on add to cart and click on cart button to see your cart items"]
+          },
+           
+
+          {
+            "tag": "funny",
+            "patterns": [
+              "Tell me a joke!",
+              "Tell me something funny!",
+              "Do you know a joke?"
+            ],
+            "responses": [
+              "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+              "What did the buffalo say when his son left for college? Bison."
+            ]
+          }
+
+        ]
+      }

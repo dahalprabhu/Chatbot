@@ -1,0 +1,7 @@
+Libraries used in our project:
+
+1)pip install tensorflow, keras, pickle, nltk
+2)pip install pyttsx3
+3)pip install speech_recognition
+4)pip install pipwin
+5)pipwin install pyaudio 
